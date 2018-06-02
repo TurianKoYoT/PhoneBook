@@ -42,11 +42,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandFactory.cs" />
+    <Compile Include="CommandLoop.cs" />
+    <Compile Include="Commands\AddCommand.cs" />
+    <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Commands\ExitCommand.cs" />
+    <Compile Include="Commands\PrintAllCommand.cs" />
+    <Compile Include="Commands\RemoveCommand.cs" />
+    <Compile Include="Commands\SearchCommand.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="PhonebookEntry.cs" />
+    <Compile Include="PhonebookModel.cs" />
+    <Compile Include="PhoneBookSerializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
